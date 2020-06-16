@@ -1372,9 +1372,7 @@ section {
 }
 .card
 {
-  /*background-color:black;
-  border-radius: 10px;*/
-  position:relative;
+    position:relative;
 	width:300px;
 	height:400px;
 	display:flex;
@@ -1448,6 +1446,24 @@ section {
   margin-top: 20px;
 
 }
+#more{
+ color:#03e9f4;
+ text-decoration:none;
+ transition:0.5s;
+ letter-spacing:2px; 
+}
+#more{
+	background-color:#03e9f4;
+	color: #050801; 
+	box-shadow:0 0 15px #03e9f4;
+			   0 0 45px #03e9f4;
+			   0 0 70px #03e9f4;
+			   0 0 250px #03e9f4;
+}
+/* -----------------------------------------------*/
+
+/* -----------------------------------------------*/
+
 .neon
 {
   color: #fff;
