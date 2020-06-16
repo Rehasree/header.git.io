@@ -82,12 +82,94 @@
             background: url("./img/loader/loader.gif") center no-repeat #fff;
         }
 /*smoke effect*/
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 body{
 	margin:0;
-	padding:0;	
+	padding:0;
+		
 }
-@media screen and (max-width: 2000px) and (min-width: 600px){
+h1{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:10em;
+	margin-top:40px;
+	text-align:center;
+	margin-left:7%;
+}
+h1 span{
+	display:table-cell;
+	margin:0;
+	padding:0;
+	animation: animate 2s linear infinite;
+}
+h1 span:nth-child(1)
+{
+	animation-delay: 0s;
+}
+h1 span:nth-child(2)
+{
+	animation-delay: 0.25s;
+}
+h1 span:nth-child(3)
+{
+	animation-delay: 0.5s;
+}
+h1 span:nth-child(4)
+{
+	animation-delay: 0.75s;
+}
+h1 span:nth-child(5)
+{
+	animation-delay: 1s;
+}
+h1 span:nth-child(6)
+{
+	animation-delay: 1.25s;
+}
+h1 span:nth-child(7)
+{
+	animation-delay: 1.5s;
+}
+h1 span:nth-child(8)
+{
+	animation-delay: 1.75s;
+}
+h1 span:nth-child(9)
+{
+	animation-delay: 2s;
+}
+h1 span:nth-child(10)
+{
+	animation-delay: 2.25s;
+}
+@keyframes animate{
+	0%,100%
+	{
+		color:#fff;
+		fliter:blur(2px);
+		text-shadow:0 0 10px #00b3ff,
+				   0 0 20px #00b3ff,
+				   0 0 40px #00b3ff,
+				   0 0 80px #00b3ff,
+				   0 0 120px #00b3ff,
+				   0 0 200px #00b3ff,
+				   0 0 300px #00b3ff,
+				   0 0 400px #00b3ff,
+				   0 0 470px #00b3ff,
+				   0 0 540px #00b3ff;
+	}
+	5%,95%
+	{
+		color:#111;
+		fliter:blur(0px);
+		text-shadow: none;
 
+	}
+
+}
+/*
+@media screen and (max-width: 3000px) and (min-width: 800px){
 h1{
  	height:100vh;
 	margin:0;
@@ -97,35 +179,15 @@ h1{
 	width:100%;
 	text-align:center;
 	color:#ddd;
-	font-size:8em;
-	font-weight:bolder;
-	font-family:sans-serif;
-	letter-spacing:0.2em;
-	margin-bottom:100px;
-	margin-left:45px;
-}
-	
-}
-@media screen and (max-width: 599px) and (min-width: 0px){
-
-h1{
- 	height:100vh;
-	margin:0;
-	padding:0;
-	top:0%;
-	transform:translateY(-50);
-	width:100%;
-	text-align:center;
-	color:#ddd;
-	font-size:8em;
+	font-size:6em;
 	font-weight:bolder;
 	font-family:sans-serif;
 	letter-spacing:0.1em;
 	margin-bottom:100px;
-	margin-left:40px;
-	margin-top:45px;	
+	margin-left:20px;
 }
 	
+
 }
   video{
 	object-fit:cover; 
@@ -195,6 +257,7 @@ h1 span:nth-child(10){
     margin-top:30px;
     margin-left:10px;
 }
+}*/
 /*smoke effect*/    
 </style>
     <!-- =================== Loader part ended=================== -->
@@ -242,12 +305,12 @@ h1 span:nth-child(10){
 
     <main id="main">
 		    <section>
-			    <div class="container">
-				      <video id="video" width="100%" height="200" autoplay muted>
+			    <!-- <div  class="container">
+				     <video id="video" width="100%" height="190" autoplay muted>
 				        <source src="smoke.mp4" />
 				      </video>
-				    <div class="overlay">
-				        <h1 class="display-1" style="font-size:5vw;" >
+				    <div class="overlay">-->
+				        <h1 class="display-1" style="font-size:12vw;" >
 								<span>P</span>
 								<span>L</span>
 								<span>A</span>
@@ -259,11 +322,11 @@ h1 span:nth-child(10){
 								<span>T</span>
 								<span>S</span>
 						</h1>
-					</div>
-				</div>
+					<!--</div>
+				</div>-->
 			<section>
         <!--</div>-->
-        <hr data-aos="fade-up"style="height:2px;border-width:3;color:blue;background-color:blue; width:30%;text-align:center;margin-left:10">
+        <hr data-aos="fade-up"style="height:2px;border-width:4;color:blue;background-color:blue; width:30%;text-align:center;margin-left:10">
         <div class="container" id="p1" data-aos="fade-up">
             <div class="row">
                 <div class="col-xl-4">
@@ -602,11 +665,10 @@ h1 span:nth-child(10){
                             <a href="https://www.linkedin.com/company/53184003" class="linkedin"><i class="bx bxl-linkedin"></i></a> 
                             <a href="https://www.youtube.com/channel/UCFlPhj8XnKBWc1cNSC8IedA" class="linkedin"><i class="bx bxl-youtube"></i></a>  
                         </div>
-                      <!--  <p><br>Content by <b>Vibhanshu Jain</b><br>
-                          College ID: CS19B1027<br><br>-->
-						  <!--Institute Representative <b>Vibhanshu Jain</b
-						  These students of IIIT Raichur have credits, authorities and the responsibilities to manage this page.
-						</p>-->
+                        <p><br>Content by <b></b><br>
+                          College ID:<br><br>
+						  <!--Institute Representative <b>Vibhanshu Jain</b-->
+						  						</p>
                     </div>
 
                 </div>

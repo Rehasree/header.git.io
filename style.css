@@ -1345,7 +1345,7 @@ section {
 }
 
 /*Heading for the main section*/
-#hd3
+/*#hd3
 {
   font-size: 60px;
   text-align: center;
@@ -1353,7 +1353,7 @@ section {
   color: darkblue;
   font-style: oblique;
   text-decoration: underline;
-}
+}*/
 
 /*For slider*/
 
@@ -1372,8 +1372,43 @@ section {
 }
 .card
 {
-  background-color:rgb(255, 251, 251);
-  border-radius: 10px;
+  /*background-color:black;
+  border-radius: 10px;*/
+  position:relative;
+	width:300px;
+	height:400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:black;
+	color:white;
+
+}
+.card:before{
+	content:'';
+	position:absolute;
+	top:-2px;
+	left:-2px;
+	right:-2px;
+	bottom:-2px;
+	background:#fff;
+	z-index:-1;
+}
+.card:after{
+	content:'';
+	position:absolute;
+	top:-4px;
+	left:-4px;
+	right:-4px;
+	bottom:-4px;
+	background:#fff;
+	z-index:-4;
+	filter:blur(10px);
+}
+.card:before,
+.card:after
+{
+	background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
 }
 .card-body
 {
@@ -1383,15 +1418,24 @@ section {
 }
 .card-title
 {
-  color: chocolate;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   font-weight: bold;
   text-decoration: underline;
+  color:#FF0066;
+  text-shadow:0 0 40px #FF9933;
+}
+.card-title:after,.card-title:after{
+	z-index:-3;
+	color:#FF9933;  
+	filter:blur(15px);
+	background:#FF9933;
+	opacity:.5;
+	background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
 }
 .card-text
 {
-  color: rgb(46, 44, 44);
+  color:white;
 }
 #hd2
 {
@@ -1402,6 +1446,7 @@ section {
   font-size: 60px;
   padding-top: 330px;
   margin-top: 20px;
+
 }
 .neon
 {
