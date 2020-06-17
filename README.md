@@ -1,8 +1,1 @@
-This is meant for placements section homepage:
-Placements Section is lead by:
-Riya Agarwal
-Vanshika Pandey
-Designed by:
-Prachi (IIIT pune)
-Reha (IIIT Dharwad)
-"Navbar and footer credits to Vibhanshu Jain(IIIT Raichur)"
+This is meant for homepage in placements section which is  lead by Riya Agarwal and Vanshika Pandey and it was designed by Prachi (IIIT pune) and me(Reha (IIIT Dharwad)).we did it in dark mode. "Navbar and footer credits to Vibhanshu Jain(IIIT Raichur)"
